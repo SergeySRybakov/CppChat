@@ -13,7 +13,6 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Русский (Россия) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
@@ -131,12 +130,11 @@ BEGIN
     0
 END
 
-#endif    // Русский (Россия) resources
+#endif
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Английский (США) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
@@ -236,7 +234,7 @@ BEGIN
     IDS_ABOUTBOX            "&About ChatCpp..."
 END
 
-#endif    // Английский (США) resources
+#endif
 /////////////////////////////////////////////////////////////////////////////
 
 
