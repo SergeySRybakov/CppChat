@@ -4,6 +4,9 @@
 #include "Sock.h"
 #include "vector"
 
+#define MessageLength 202
+#define NameLength 14
+
 
 const CString mess_EmptyName = "Ваше имя?";
 const CString mess_StopChat = "Остановить чат";
@@ -23,8 +26,8 @@ struct SENDBUFFER
 	int typemessage;
 	int countpeople;
 	bool stopchat;
-	TCHAR name[14];
-	TCHAR buffer[202];
+	TCHAR name[NameLength];
+	TCHAR buffer[MessageLength];
 };
 
 
