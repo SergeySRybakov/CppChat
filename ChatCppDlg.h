@@ -19,8 +19,8 @@ struct SENDBUFFER
 		typemessage = 0; 
 		countpeople = 0;
 		stopchat = false;
-		ZeroMemory(name, sizeof(TCHAR)*14); 
-		ZeroMemory(buffer, sizeof(TCHAR)*202);
+		ZeroMemory(name, sizeof(TCHAR)*NameLength); 
+		ZeroMemory(buffer, sizeof(TCHAR)*MessageLength);
 	}
 
 	int typemessage;
